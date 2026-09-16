@@ -1,0 +1,55 @@
+2026-09-15 08:24:12.320 [warning] Dir "/home/202207372/.pixi/envs" is not watchable (directory does not exist)
+2026-09-15 08:24:14.741 [info] Starting Environment refresh
+2026-09-15 08:24:14.741 [info] Searching for interpreters in posix paths locator
+2026-09-15 08:24:14.745 [info] Searching for pyenv environments
+2026-09-15 08:24:14.745 [info] Searching for conda environments
+2026-09-15 08:24:14.745 [info] Searching for global virtual environments
+2026-09-15 08:24:14.745 [info] Searching for custom virtual environments
+2026-09-15 08:24:14.748 [info] Skipping ActivatedEnv Detection:  process.env.VSCODE_CLI !== '1'
+2026-09-15 08:24:14.748 [info] Skipping ActivatedEnv Detection:  process.env.VSCODE_CLI !== '1'
+2026-09-15 08:24:14.750 [info] pyenv is not installed
+2026-09-15 08:24:14.750 [info] Finished searching for pyenv environments: 8 milliseconds
+2026-09-15 08:24:14.750 [info] Finished searching for custom virtual envs: 8 milliseconds
+2026-09-15 08:24:14.784 [info] > conda info --json
+2026-09-15 08:24:14.789 [info] > hatch env show --json
+2026-09-15 08:24:14.789 [info] cwd: .
+2026-09-15 08:24:14.802 [info] > pyenv which python
+2026-09-15 08:24:14.802 [info] cwd: .
+2026-09-15 08:24:14.803 [info] Finished searching for global virtual envs: 60 milliseconds
+2026-09-15 08:24:14.811 [info] Found: /bin/python --> /bin/python3.10
+2026-09-15 08:24:14.812 [info] Found: /bin/python3 --> /bin/python3.10
+2026-09-15 08:24:14.813 [info] Found: /bin/python3.10 --> /bin/python3.10
+2026-09-15 08:24:14.829 [info] Found: /usr/bin/python --> /usr/bin/python3.10
+2026-09-15 08:24:14.829 [info] Found: /usr/bin/python3 --> /usr/bin/python3.10
+2026-09-15 08:24:14.829 [info] Found: /usr/bin/python3.10 --> /usr/bin/python3.10
+2026-09-15 08:24:14.840 [info] Finished searching for interpreters in posix paths locator: 98 milliseconds
+2026-09-15 08:24:14.840 [info] > /bin/python -I ./.code-server/extensions/ms-python.python-2026.4.0-universal/python_files/get_output_via_markers.py ./.code-server/extensions/ms-python.python-2026.4.0-universal/python_files/interpreterInfo.py
+2026-09-15 08:24:14.846 [info] > /usr/bin/python -I ./.code-server/extensions/ms-python.python-2026.4.0-universal/python_files/get_output_via_markers.py ./.code-server/extensions/ms-python.python-2026.4.0-universal/python_files/interpreterInfo.py
+2026-09-15 08:24:14.846 [info] Environments refresh paths discovered (event): 105 milliseconds
+2026-09-15 08:24:14.846 [info] Environments refresh paths discovered: 106 milliseconds
+2026-09-15 08:24:14.913 [info] Environments refresh finished (event): 173 milliseconds
+2026-09-15 08:24:14.919 [info] Environment refresh took 179 milliseconds
+2026-09-15 08:24:14.921 [info] Python interpreter path: /bin/python
+2026-09-15 08:24:16.256 [info] Starting Jedi language server for 202207372.
+2026-09-15 08:46:15.436 [info] Running installed packages checker:  {
+  id: '/bin/python',
+  sysPrefix: '/usr',
+  envType: 'Global',
+  envName: '',
+  envPath: '',
+  path: '/bin/python',
+  architecture: 3,
+  sysVersion: '3.10.12 (main, Jul 15 2026, 23:40:17) [GCC 11.4.0]',
+  version: {
+    raw: '3.10.12',
+    major: 3,
+    minor: 10,
+    patch: 12,
+    build: [],
+    prerelease: [ 'final', '0' ]
+  },
+  displayName: 'Python 3.10.12 64-bit',
+  detailedDisplayName: 'Python 3.10.12 64-bit',
+  type: undefined
+} /home/202207372/.code-server/extensions/ms-python.python-2026.4.0-universal/python_files/installed_check.py /home/202207372/repos/dgm-arca/pyproject.toml
+2026-09-15 08:46:15.436 [info] > /bin/python ./.code-server/extensions/ms-python.python-2026.4.0-universal/python_files/installed_check.py ./repos/dgm-arca/pyproject.toml

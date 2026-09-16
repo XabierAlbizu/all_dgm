@@ -1,0 +1,7 @@
+{
+  "cluster": "colmena",
+  "partition_select": "dgx",
+  "auto_qos": "dgx_estudiante",
+  "gpu_count": "1",
+  "time": "00:30:00"
+}

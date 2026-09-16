@@ -1,0 +1,19 @@
+{
+  "job_name": "vscode_dgx",
+  "workdir": "/home/202207372/ondemand/data/sys/dashboard/batch_connect/sys/vscode_dgx/output/807c5ee2-b12c-4371-9fe0-f1dc6b50674b",
+  "output_path": "/home/202207372/ondemand/data/sys/dashboard/batch_connect/sys/vscode_dgx/output/807c5ee2-b12c-4371-9fe0-f1dc6b50674b/output.log",
+  "shell_path": "/bin/bash",
+  "qos": "dgx_estudiante",
+  "native": [
+    "--ntasks=1",
+    "--partition=dgx",
+    "--gres=gpu:1",
+    "--cpus-per-task=4",
+    "--mem-per-cpu=4000M",
+    "--time=00:30:00",
+    "--qos=dgx_estudiante",
+    "--account=dgx_estudiante",
+    "--output=output.log",
+    "--error=error.log"
+  ]
+}

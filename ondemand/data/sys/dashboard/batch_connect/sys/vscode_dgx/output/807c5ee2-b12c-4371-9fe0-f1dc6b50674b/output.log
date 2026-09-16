@@ -1,0 +1,35 @@
+Preparando entorno para code-server (VSCode)...
+Script starting...
+after.sh: esperando a code-server (máx 120s)...
+[2026-09-16 18:31:37] === vscode_dgx START ===
+[2026-09-16 18:31:37] Host: dgx · Job: 146 · Puerto: 30728 · User: 202207372
+[2026-09-16 18:31:37] Log central: /raid/dgx/202207372/.ood-logs/dgx_146_30728.log
+after.sh: [1s] esperando... (HTTP 000000)
+[2026-09-16 18:31:37] NODE_IP: 10.245.0.12
+[2026-09-16 18:31:37] Arrancando dockerd-rootless ENJAULADO...
+[2026-09-16 18:31:37] dockerd-rootless OK · PID=2112356 · socket=/tmp/runtime-1212300694-30728/docker.sock
+[2026-09-16 18:31:37] BIND_PATHS minimal: /home/202207372/ondemand/data/sys/dashboard/batch_connect/sys/vscode_dgx/output/807c5ee2-b12c-4371-9fe0-f1dc6b50674b/subuid.filtered:/etc/subuid:ro,/home/202207372/ondemand/data/sys/dashboard/batch_connect/sys/vscode_dgx/output/807c5ee2-b12c-4371-9fe0-f1dc6b50674b/subgid.filtered:/etc/subgid:ro,/tmp/runtime-1212300694-30728/docker.sock:/var/run/docker.sock,/usr/bin/docker:/usr/bin/docker:ro,/usr/libexec/docker:/usr/libexec/docker:ro
+[2026-09-16 18:31:38] GPU asignada (usar en docker --gpus): MIG-f4541e2c-4496-50d3-8faf-f4f66ae0cd37
+[2026-09-16 18:31:38] WORK_DIR: /home/202207372
+[2026-09-16 18:31:38] Arrancando code-server en 10.245.0.12:30728...
+[2026-09-16 18:31:38] code-server PID=2112630. Esperando exit...
+after.sh: [2s] esperando... (HTTP 000000)
+[2026-09-16T16:31:39.221Z] info  code-server 4.96.4 b7ef8f9bd70cb5b342fa8ec8a0086bad676d8124
+[2026-09-16T16:31:39.238Z] info  Using user-data-dir /home/202207372/.code-server
+[2026-09-16T16:31:39.249Z] info  Using config file /home/202207372/.config/code-server/config.yaml
+[2026-09-16T16:31:39.249Z] info  HTTP server listening on http://10.245.0.12:30728/
+[2026-09-16T16:31:39.249Z] info    - Authentication is enabled
+[2026-09-16T16:31:39.249Z] info      - Using password from $PASSWORD
+[2026-09-16T16:31:39.249Z] info    - Not serving HTTPS
+[2026-09-16T16:31:39.249Z] info  Session server listening on /home/202207372/.code-server/code-server-ipc.sock
+[18:31:39] 
+
+
+
+
+[18:31:39] Extension host agent started.
+after.sh: code-server listo tras 3s (HTTP 302).
+Generating connection YAML file...
+[18:31:51] [10.253.66.82][1ae714bb][ManagementConnection] New connection established.
+[18:31:52] [10.253.66.82][53e1b7bf][ExtensionHostConnection] New connection established.
+[18:31:52] [10.253.66.82][53e1b7bf][ExtensionHostConnection] <787> Launched Extension Host Process.

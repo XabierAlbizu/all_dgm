@@ -1,0 +1,183 @@
+2026-09-15 08:17:47.741 [info] [main] Log level: Info
+2026-09-15 08:17:47.741 [info] [main] Validating found git in: "git"
+2026-09-15 08:17:47.741 [info] [main] Using git "2.34.1" from "git"
+2026-09-15 08:17:47.741 [info] [Model][doInitialScan] Initial repository scan started
+2026-09-15 08:17:47.741 [info] > git rev-parse --show-toplevel [5ms]
+2026-09-15 08:17:47.741 [info] fatal: not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-09-15 08:17:47.741 [info] > git rev-parse --show-toplevel [2ms]
+2026-09-15 08:17:47.741 [info] fatal: not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-09-15 08:17:47.741 [info] > git rev-parse --show-toplevel [2ms]
+2026-09-15 08:17:47.741 [info] fatal: not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-09-15 08:17:47.741 [info] > git rev-parse --show-toplevel [2ms]
+2026-09-15 08:17:47.741 [info] fatal: not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-09-15 08:17:47.741 [info] > git rev-parse --show-toplevel [3ms]
+2026-09-15 08:17:47.741 [info] fatal: not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-09-15 08:17:47.741 [info] > git rev-parse --show-toplevel [3ms]
+2026-09-15 08:17:47.741 [info] fatal: not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-09-15 08:17:47.741 [info] > git rev-parse --show-toplevel [2ms]
+2026-09-15 08:17:47.741 [info] fatal: not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-09-15 08:17:47.741 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-09-15 08:17:53.511 [info] > git rev-parse --show-toplevel [3ms]
+2026-09-15 08:17:53.511 [info] fatal: not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-09-15 08:24:04.313 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/202207372/.code-server/extensions/.ba00df8b-e9db-4672-b26a-e981c240c84e/bundled/libs/debugpy/_vendored/pydevd/_pydevd_frame_eval/". Error:Error: ENOENT: no such file or directory, realpath '/home/202207372/.code-server/extensions/.ba00df8b-e9db-4672-b26a-e981c240c84e/bundled/libs/debugpy/_vendored/pydevd/_pydevd_frame_eval/'
+2026-09-15 08:24:04.317 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/202207372/.code-server/extensions/.ba00df8b-e9db-4672-b26a-e981c240c84e/bundled/libs/debugpy/_vendored/pydevd/pydevd_attach_to_process/linux_and_mac/". Error:Error: ENOENT: no such file or directory, realpath '/home/202207372/.code-server/extensions/.ba00df8b-e9db-4672-b26a-e981c240c84e/bundled/libs/debugpy/_vendored/pydevd/pydevd_attach_to_process/linux_and_mac/'
+2026-09-15 08:24:06.034 [info] > git rev-parse --show-toplevel [8ms]
+2026-09-15 08:24:06.034 [info] fatal: not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-09-15 08:24:26.626 [info] > git rev-parse --show-toplevel [6ms]
+2026-09-15 08:24:26.626 [info] fatal: not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-09-15 08:33:53.760 [info] > git rev-parse --show-toplevel [3ms]
+2026-09-15 08:33:53.760 [info] fatal: not a git repository (or any parent up to mount point /home/202207372/ondemand/data/sys/dashboard/batch_connect/sys/vscode_dgx/output)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-09-15 08:38:20.878 [info] > git rev-parse --show-toplevel [2ms]
+2026-09-15 08:38:20.883 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2026-09-15 08:38:20.889 [info] [Model][openRepository] Opened repository: /home/202207372/dgm-arca
+2026-09-15 08:38:20.896 [info] > git config --get commit.template [3ms]
+2026-09-15 08:38:20.898 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2026-09-15 08:38:20.898 [warning] [Git][getBranch] No such branch: master
+2026-09-15 08:38:20.905 [info] > git status -z -uall [4ms]
+2026-09-15 08:38:20.906 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2026-09-15 08:38:20.914 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2026-09-15 08:38:20.914 [warning] [Git][getBranch] No such branch: master
+2026-09-15 08:38:20.914 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for master: Error: No such branch: master.
+2026-09-15 08:38:20.918 [info] > git config --get commit.template [3ms]
+2026-09-15 08:38:20.919 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2026-09-15 08:38:20.919 [warning] [Git][getBranch] No such branch: master
+2026-09-15 08:38:20.924 [info] > git status -z -uall [3ms]
+2026-09-15 08:38:20.926 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2026-09-15 08:38:21.653 [info] > git check-ignore -v -z --stdin [2ms]
+2026-09-15 08:39:03.463 [info] > git check-ignore -v -z --stdin [2ms]
+2026-09-15 08:42:08.616 [warning] [Git][getHEAD] Failed to parse HEAD file: ENOENT: no such file or directory, open '/home/202207372/dgm-arca/.git/HEAD'
+2026-09-15 08:42:08.620 [warning] [Git][getRemotes] Error: ENOENT: no such file or directory, open '/home/202207372/dgm-arca/.git/config'
+2026-09-15 08:42:08.625 [warning] [Git][getHEAD] Failed to parse HEAD file: ENOENT: no such file or directory, open '/home/202207372/dgm-arca/.git/HEAD'
+2026-09-15 08:42:08.630 [warning] [Git][getRemotes] Error: ENOENT: no such file or directory, open '/home/202207372/dgm-arca/.git/config'
+2026-09-15 08:46:05.299 [info] > git rev-parse --show-toplevel [2ms]
+2026-09-15 08:46:05.303 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2026-09-15 08:46:05.306 [info] [Model][openRepository] Opened repository: /home/202207372/repos/dgm-arca
+2026-09-15 08:46:05.312 [info] > git config --get commit.template [2ms]
+2026-09-15 08:46:05.314 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2026-09-15 08:46:05.316 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/202207372/repos/dgm-arca/.git/refs/remotes/origin/main'
+2026-09-15 08:46:05.318 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2026-09-15 08:46:05.326 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2026-09-15 08:46:05.326 [info] > git status -z -uall [5ms]
+2026-09-15 08:46:05.335 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2026-09-15 08:46:05.338 [info] > git config --get commit.template [4ms]
+2026-09-15 08:46:05.341 [info] > git config --local branch.main.vscode-merge-base [4ms]
+2026-09-15 08:46:05.341 [warning] [Git][config] git config failed: Failed to execute git
+2026-09-15 08:46:05.344 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2026-09-15 08:46:05.346 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/202207372/repos/dgm-arca/.git/refs/remotes/origin/main'
+2026-09-15 08:46:05.346 [info] > git reflog main --grep-reflog=branch: Created from *. [3ms]
+2026-09-15 08:46:05.349 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2026-09-15 08:46:05.354 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [6ms]
+2026-09-15 08:46:05.357 [info] > git status -z -uall [6ms]
+2026-09-15 08:46:05.357 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2026-09-15 08:46:05.360 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [4ms]
+2026-09-15 08:46:05.363 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2026-09-15 08:46:05.366 [info] > git config --local branch.main.vscode-merge-base origin/main [3ms]
+2026-09-15 08:46:05.369 [info] > git config --local branch.main.vscode-merge-base [3ms]
+2026-09-15 08:46:05.371 [info] > git config --get commit.template [3ms]
+2026-09-15 08:46:05.373 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [2ms]
+2026-09-15 08:46:05.394 [info] > git merge-base refs/heads/main refs/remotes/origin/main [18ms]
+2026-09-15 08:46:05.397 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [24ms]
+2026-09-15 08:46:05.400 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/202207372/repos/dgm-arca/.git/refs/remotes/origin/main'
+2026-09-15 08:46:05.401 [info] > git diff --name-status -z --diff-filter=ADMR 8da3da62ce79b730b1ea77c25bab041fdf581fa2...refs/remotes/origin/main [4ms]
+2026-09-15 08:46:05.402 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2026-09-15 08:46:05.409 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2026-09-15 08:46:05.411 [info] > git status -z -uall [7ms]
+2026-09-15 08:46:05.822 [info] > git ls-files --stage -- /home/202207372/repos/dgm-arca/Makefile [2ms]
+2026-09-15 08:46:05.825 [info] > git show --textconv :Makefile [9ms]
+2026-09-15 08:46:05.828 [info] > git cat-file -s 17bb9c71a776853d3330fbcf4c8b21303721cfb8 [3ms]
+2026-09-15 08:46:05.908 [info] > git check-ignore -v -z --stdin [2ms]
+2026-09-15 08:46:06.103 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/202207372/dgm-arca/". Error:Error: ENOENT: no such file or directory, realpath '/home/202207372/dgm-arca/'
+2026-09-15 08:46:15.645 [info] > git show --textconv :pyproject.toml [3ms]
+2026-09-15 08:46:15.647 [info] > git ls-files --stage -- /home/202207372/repos/dgm-arca/pyproject.toml [3ms]
+2026-09-15 08:46:15.651 [info] > git cat-file -s 8b4531a727293b4caee50e7549d206d95d9e6116 [2ms]
+2026-09-15 08:48:00.511 [info] > git show --textconv :Makefile [3ms]
+2026-09-15 08:48:00.513 [info] > git ls-files --stage -- /home/202207372/repos/dgm-arca/Makefile [2ms]
+2026-09-15 08:48:00.517 [info] > git cat-file -s 17bb9c71a776853d3330fbcf4c8b21303721cfb8 [2ms]
+2026-09-15 08:52:30.589 [info] > git ls-files --stage -- /home/202207372/repos/dgm-arca/uv.lock [3ms]
+2026-09-15 08:52:30.592 [info] > git show --textconv :uv.lock [9ms]
+2026-09-15 08:52:30.593 [info] > git cat-file -s 3f4d099444cb724eff44b3f472f66b1b28e0625f [2ms]
+2026-09-15 08:52:52.656 [info] > git show --textconv :Makefile [3ms]
+2026-09-15 08:52:52.658 [info] > git ls-files --stage -- /home/202207372/repos/dgm-arca/Makefile [3ms]
+2026-09-15 08:52:52.662 [info] > git cat-file -s 17bb9c71a776853d3330fbcf4c8b21303721cfb8 [2ms]
+2026-09-15 09:04:17.168 [info] > git rev-parse --show-toplevel [3ms]
+2026-09-15 09:04:17.168 [info] fatal: not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-09-15 09:05:12.985 [info] > git check-ignore -v -z --stdin [3ms]
+2026-09-15 09:05:14.502 [info] > git show --textconv :README.md [3ms]
+2026-09-15 09:05:14.504 [info] > git ls-files --stage -- /home/202207372/repos/dgm-arca/README.md [2ms]
+2026-09-15 09:05:14.509 [info] > git cat-file -s 0dbbf582d46142489e3b2c8b0ad7ddc61ff96d1f [3ms]
+2026-09-15 09:05:15.537 [info] > git blame --root --incremental 8da3da62ce79b730b1ea77c25bab041fdf581fa2 -- /home/202207372/repos/dgm-arca/README.md [11ms]
+2026-09-15 09:05:17.109 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2026-09-15 09:05:17.120 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/202207372/repos/dgm-arca/.git/refs/remotes/origin/main'
+2026-09-15 09:05:17.122 [info] > git config --get commit.template [22ms]
+2026-09-15 09:05:17.132 [info] > git rev-parse refs/remotes/origin/main [12ms]
+2026-09-15 09:05:17.160 [info] > git status -z -uall [11ms]
+2026-09-15 09:05:17.161 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2026-09-15 09:05:22.171 [info] > git config --get commit.template [4ms]
+2026-09-15 09:05:22.173 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2026-09-15 09:05:22.175 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/202207372/repos/dgm-arca/.git/refs/remotes/origin/main'
+2026-09-15 09:05:22.180 [info] > git rev-parse refs/remotes/origin/main [5ms]
+2026-09-15 09:05:22.188 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2026-09-15 09:05:22.189 [info] > git status -z -uall [6ms]
+2026-09-15 09:05:31.690 [info] > git show --textconv :README.md [3ms]
+2026-09-15 09:05:31.692 [info] > git ls-files --stage -- /home/202207372/repos/dgm-arca/README.md [2ms]
+2026-09-15 09:05:31.697 [info] > git cat-file -s 0dbbf582d46142489e3b2c8b0ad7ddc61ff96d1f [2ms]
+2026-09-15 09:05:40.307 [info] > git show --textconv :README.md [5ms]
+2026-09-15 09:05:40.309 [info] > git ls-files --stage -- /home/202207372/repos/dgm-arca/README.md [4ms]
+2026-09-15 09:05:40.317 [info] > git cat-file -s 0dbbf582d46142489e3b2c8b0ad7ddc61ff96d1f [3ms]
+2026-09-15 09:06:11.556 [info] > git show --textconv :README.md [4ms]
+2026-09-15 09:06:11.558 [info] > git ls-files --stage -- /home/202207372/repos/dgm-arca/README.md [3ms]
+2026-09-15 09:06:11.563 [info] > git cat-file -s 0dbbf582d46142489e3b2c8b0ad7ddc61ff96d1f [3ms]
+2026-09-15 09:06:20.999 [info] > git show --textconv :Makefile [3ms]
+2026-09-15 09:06:21.002 [info] > git ls-files --stage -- /home/202207372/repos/dgm-arca/Makefile [3ms]
+2026-09-15 09:06:21.006 [info] > git cat-file -s 17bb9c71a776853d3330fbcf4c8b21303721cfb8 [2ms]
+2026-09-15 09:07:05.684 [info] > git show --textconv :README.md [2ms]
+2026-09-15 09:07:05.686 [info] > git ls-files --stage -- /home/202207372/repos/dgm-arca/README.md [2ms]
+2026-09-15 09:07:05.691 [info] > git cat-file -s 0dbbf582d46142489e3b2c8b0ad7ddc61ff96d1f [2ms]
+2026-09-15 09:07:20.344 [info] > git check-ignore -v -z --stdin [3ms]
+2026-09-15 09:07:21.766 [info] > git show --textconv :smoke/README.md [3ms]
+2026-09-15 09:07:21.768 [info] > git ls-files --stage -- /home/202207372/repos/dgm-arca/smoke/README.md [3ms]
+2026-09-15 09:07:21.772 [info] > git cat-file -s 0715e26893ee809921d0aa224b8b574d726b3449 [2ms]
+2026-09-15 09:07:23.877 [info] > git blame --root --incremental 8da3da62ce79b730b1ea77c25bab041fdf581fa2 -- /home/202207372/repos/dgm-arca/smoke/README.md [3ms]
+2026-09-15 09:08:26.460 [info] > git config --get commit.template [3ms]
+2026-09-15 09:08:26.462 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2026-09-15 09:08:26.464 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/202207372/repos/dgm-arca/.git/refs/remotes/origin/main'
+2026-09-15 09:08:26.466 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2026-09-15 09:08:26.473 [info] > git status -z -uall [5ms]
+2026-09-15 09:08:26.473 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2026-09-15 09:08:52.406 [info] > git show --textconv :smoke/check_gpu.py [3ms]
+2026-09-15 09:08:52.409 [info] > git ls-files --stage -- /home/202207372/repos/dgm-arca/smoke/check_gpu.py [3ms]
+2026-09-15 09:08:52.413 [info] > git cat-file -s e71041b7e0d1e0857d6bb3740060910430961f1c [2ms]
+2026-09-15 09:09:17.844 [info] > git check-ignore -v -z --stdin [3ms]
+2026-09-15 09:16:00.895 [info] > git check-ignore -v -z --stdin [3ms]
+2026-09-15 09:16:01.765 [info] > git show --textconv :api/app.py [7ms]
+2026-09-15 09:16:01.767 [info] > git ls-files --stage -- /home/202207372/repos/dgm-arca/api/app.py [3ms]
+2026-09-15 09:16:01.773 [info] > git cat-file -s 85918ccb5c12c5e96c5382ce913b06d053a1f55a [3ms]
+2026-09-15 09:17:06.111 [info] > git show --textconv :smoke/README.md [4ms]
+2026-09-15 09:17:06.113 [info] > git ls-files --stage -- /home/202207372/repos/dgm-arca/smoke/README.md [3ms]
+2026-09-15 09:17:06.118 [info] > git cat-file -s 0715e26893ee809921d0aa224b8b574d726b3449 [3ms]
+2026-09-15 09:20:29.885 [info] > git config --get commit.template [4ms]
+2026-09-15 09:20:29.886 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2026-09-15 09:20:29.889 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/202207372/repos/dgm-arca/.git/refs/remotes/origin/main'
+2026-09-15 09:20:29.890 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2026-09-15 09:20:29.898 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2026-09-15 09:20:29.898 [info] > git status -z -uall [5ms]
+2026-09-15 09:20:30.247 [info] > git check-ignore -v -z --stdin [2ms]
+2026-09-15 09:21:03.073 [info] > git check-ignore -v -z --stdin [3ms]
+2026-09-15 09:22:55.535 [info] > git show --textconv :docs/00_propuesta.md [4ms]
+2026-09-15 09:22:55.538 [info] > git ls-files --stage -- /home/202207372/repos/dgm-arca/docs/00_propuesta.md [3ms]
+2026-09-15 09:22:55.542 [info] > git cat-file -s 7d7da6c5a6eb55be6886277e938e99a6377d2b1c [2ms]
+2026-09-15 09:23:12.829 [info] > git ls-files --stage -- /home/202207372/repos/dgm-arca/docs/temas_ejemplo.md [3ms]
+2026-09-15 09:23:12.831 [info] > git show --textconv :docs/temas_ejemplo.md [8ms]
+2026-09-15 09:23:12.833 [info] > git cat-file -s 5c52ab68e69826883a17d1c54dd86f695fef7e9a [2ms]

@@ -1,0 +1,108 @@
+[2026-09-15 08:17:19] === vscode_dgx START ===
+[2026-09-15 08:17:19] Host: dgx · Job: 96 · Puerto: 30802 · User: 202207372
+[2026-09-15 08:17:19] Log central: /raid/dgx/202207372/.ood-logs/dgx_96_30802.log
+[2026-09-15 08:17:19] NODE_IP: 10.245.0.12
+[2026-09-15 08:17:19] Arrancando dockerd-rootless ENJAULADO...
+[2026-09-15 08:17:19] dockerd-rootless OK · PID=4021494 · socket=/tmp/runtime-1212300694-30802/docker.sock
+[2026-09-15 08:17:19] BIND_PATHS minimal: /home/202207372/ondemand/data/sys/dashboard/batch_connect/sys/vscode_dgx/output/6081ed85-0aaf-4236-99f1-762fe96c9ac0/subuid.filtered:/etc/subuid:ro,/home/202207372/ondemand/data/sys/dashboard/batch_connect/sys/vscode_dgx/output/6081ed85-0aaf-4236-99f1-762fe96c9ac0/subgid.filtered:/etc/subgid:ro,/tmp/runtime-1212300694-30802/docker.sock:/var/run/docker.sock,/usr/bin/docker:/usr/bin/docker:ro,/usr/libexec/docker:/usr/libexec/docker:ro
+[2026-09-15 08:17:19] GPU asignada (usar en docker --gpus): MIG-13ea1fe8-7fca-5334-bf5a-105df0ae92bb
+[2026-09-15 08:17:19] WORK_DIR: /home/202207372
+[2026-09-15 08:17:19] Arrancando code-server en 10.245.0.12:30802...
+[2026-09-15 08:17:19] code-server PID=4021798. Esperando exit...
+[2026-09-15T06:17:20.795Z] info  Wrote default config file to /home/202207372/.config/code-server/config.yaml
+[2026-09-15T06:17:21.016Z] info  code-server 4.96.4 b7ef8f9bd70cb5b342fa8ec8a0086bad676d8124
+[2026-09-15T06:17:21.018Z] info  Using user-data-dir /home/202207372/.code-server
+[2026-09-15T06:17:21.029Z] info  Using config file /home/202207372/.config/code-server/config.yaml
+[2026-09-15T06:17:21.030Z] info  HTTP server listening on http://10.245.0.12:30802/
+[2026-09-15T06:17:21.030Z] info    - Authentication is enabled
+[2026-09-15T06:17:21.030Z] info      - Using password from $PASSWORD
+[2026-09-15T06:17:21.030Z] info    - Not serving HTTPS
+[2026-09-15T06:17:21.030Z] info  Session server listening on /home/202207372/.code-server/code-server-ipc.sock
+[08:17:21] 
+
+
+
+
+[08:17:21] Extension host agent started.
+[08:17:21] Started initializing default profile extensions in extensions installation folder. file:///home/202207372/.code-server/extensions
+[08:17:21] Completed initializing default profile extensions in extensions installation folder. file:///home/202207372/.code-server/extensions
+File not found: /usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda.js
+File not found: /usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda_bg.wasm
+[08:17:39] [10.253.66.82][f05c5a65][ManagementConnection] New connection established.
+[08:17:43] [10.253.66.82][f02bde10][ExtensionHostConnection] New connection established.
+[08:17:43] [10.253.66.82][f02bde10][ExtensionHostConnection] <882> Launched Extension Host Process.
+[08:24:02] Getting Manifest... ms-python.python
+[08:24:02] Installing extension: ms-python.python {
+  isMachineScoped: false,
+  installPreReleaseVersion: false,
+  pinned: false,
+  installOnlyNewlyAddedFromExtensionPack: true,
+  isApplicationScoped: false,
+  profileLocation: wr {
+    scheme: 'file',
+    authority: '',
+    path: '/home/202207372/.code-server/extensions/extensions.json',
+    query: '',
+    fragment: '',
+    _formatted: 'file:///home/202207372/.code-server/extensions/extensions.json',
+    _fsPath: '/home/202207372/.code-server/extensions/extensions.json'
+  },
+  productVersion: { version: '1.96.4', date: '2025-01-17T23:26:15.250Z' }
+}
+[08:24:02] Skipping the packed extension as it cannot be installed ms-python.vscode-python-envs Can't install 'ms-python.vscode-python-envs' extension because it is not compatible with the current version of code-server (version 1.96.4).
+[08:24:02] Getting Manifest... ms-python.debugpy
+[08:24:02] Installing extension: ms-python.debugpy {
+  isMachineScoped: false,
+  installPreReleaseVersion: false,
+  pinned: false,
+  installOnlyNewlyAddedFromExtensionPack: true,
+  isApplicationScoped: false,
+  profileLocation: wr {
+    scheme: 'file',
+    authority: '',
+    path: '/home/202207372/.code-server/extensions/extensions.json',
+    query: '',
+    fragment: '',
+    _formatted: 'file:///home/202207372/.code-server/extensions/extensions.json',
+    _fsPath: '/home/202207372/.code-server/extensions/extensions.json'
+  },
+  productVersion: { version: '1.96.4', date: '2025-01-17T23:26:15.250Z' },
+  context: { dependecyOrPackExtensionInstall: true }
+}
+[08:24:02] Extension signature verification is not done: ms-python.debugpy
+[08:24:02] Could not load vsce-sign module Cannot find package '@vscode/vsce-sign' imported from /usr/lib/code-server/lib/vscode/out/server-main.js
+[08:24:03] Could not load vsce-sign module Cannot find package '@vscode/vsce-sign' imported from /usr/lib/code-server/lib/vscode/out/server-main.js
+[08:24:03] Extension signature verification is not done: ms-python.python
+[08:24:03] Extracted extension to file:///home/202207372/.code-server/extensions/ms-python.debugpy-2026.6.0-linux-x64: ms-python.debugpy
+[08:24:03] Renamed to /home/202207372/.code-server/extensions/ms-python.debugpy-2026.6.0-linux-x64
+[08:24:03] Extracted extension to file:///home/202207372/.code-server/extensions/ms-python.python-2026.4.0-universal: ms-python.python
+[08:24:03] Renamed to /home/202207372/.code-server/extensions/ms-python.python-2026.4.0-universal
+[08:24:03] Extension installed successfully: ms-python.debugpy file:///home/202207372/.code-server/extensions/extensions.json
+[08:24:03] Extension installed successfully: ms-python.python file:///home/202207372/.code-server/extensions/extensions.json
+[08:24:24] Getting Manifest... mechatroner.rainbow-csv
+[08:24:24] Installing extension: mechatroner.rainbow-csv {
+  isMachineScoped: false,
+  installPreReleaseVersion: false,
+  pinned: false,
+  installOnlyNewlyAddedFromExtensionPack: true,
+  isApplicationScoped: false,
+  profileLocation: wr {
+    scheme: 'file',
+    authority: '',
+    path: '/home/202207372/.code-server/extensions/extensions.json',
+    query: '',
+    fragment: '',
+    _formatted: 'file:///home/202207372/.code-server/extensions/extensions.json',
+    _fsPath: '/home/202207372/.code-server/extensions/extensions.json'
+  },
+  productVersion: { version: '1.96.4', date: '2025-01-17T23:26:15.250Z' }
+}
+[08:24:25] Extension signature verification is not done: mechatroner.rainbow-csv
+[08:24:25] Could not load vsce-sign module Cannot find package '@vscode/vsce-sign' imported from /usr/lib/code-server/lib/vscode/out/server-main.js
+[08:24:25] Extracted extension to file:///home/202207372/.code-server/extensions/mechatroner.rainbow-csv-3.24.1-universal: mechatroner.rainbow-csv
+[08:24:25] Renamed to /home/202207372/.code-server/extensions/mechatroner.rainbow-csv-3.24.1-universal
+[08:24:25] Extension installed successfully: mechatroner.rainbow-csv file:///home/202207372/.code-server/extensions/extensions.json
+[10:16:15] [10.253.66.82][f05c5a65][ManagementConnection] The client has reconnected.
+[10:16:15] [10.253.66.82][f02bde10][ExtensionHostConnection] The client has reconnected.
+[10:19:35] [10.253.66.82][f05c5a65][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[13:19:45] [10.253.66.82][f02bde10][ExtensionHostConnection] <882> Extension Host Process exited with code: 0, signal: null.
